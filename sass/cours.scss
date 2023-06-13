@@ -1,0 +1,63 @@
+$light: #eee;
+$dark: #333;
+
+@mixin themeDark($light-theme: true){
+   @if($light-theme){
+      color: $dark;
+      background-color: $light;
+
+   }
+      else{
+         color:$light ;
+         background-color: $dark;
+      }
+}
+
+
+body{
+   @include themeDark($light-theme: false);
+}
+
+div{
+   @include themeDark($light-theme: false);
+}
+
+.tr {
+   text-align: center;
+   text-decoration: underline;
+}
+.grid-container {
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   gap: 10px;
+   padding: 10px;
+  
+ }
+ 
+ .grid-container > div {
+   text-align: center;
+   padding: 20px 0;
+   font-size: 30px;
+   border: 2px solid black;
+ }
+ .navbar{
+   background-color: black;
+   text-align: right;
+   align-items: baseline;
+}
+.navbar a{
+  
+   text-decoration: none;
+   color: white;
+   transition: 0.5s;
+}
+.navbar a:hover{
+   color: #7c3939;
+   transition: 0.5s;
+   
+}
+
+.he:hover {
+     text-decoration: underline;
+     color: red;
+   }

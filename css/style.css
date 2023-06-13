@@ -1,0 +1,188 @@
+/* corps */
+
+body {
+  background-color: black ;
+  
+  font-size: 17px;
+
+}
+
+/* titre */
+h1  {
+  font-family: 'Bangers', cursive;
+  background: rgb(255,232,94);
+  background: radial-gradient(circle, rgba(255,232,94,1) 0%, rgba(0,236,255,1) 50%, rgba(255,255,255,0.4878151944371498) 100%); 
+    color: white;
+    text-align: center;
+    font-size: 4em;   
+}
+
+h3 {
+  font-family: 'Bangers', cursive; 
+}
+
+p {
+  font-family: 'Bangers', cursive;
+    text-align: justify;
+    text-align: center;
+    color: rgb(75, 74, 74);
+}
+
+
+
+/* image centre */
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+
+/*  les ombres & bordues */
+
+
+
+
+/*  tableau */
+table {
+  color: #0c0c0c;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  background-color: #636363;
+}
+td, tr {
+  border: 1px solid #0da6ff37;
+  padding: 8px;
+}
+
+
+
+
+/*  sous titre */
+h2 {
+    background: rgb(0,80,255);
+    background: linear-gradient(90deg, rgba(0,80,255,1) 0%, rgb(62, 192, 196) 48%, rgba(252,252,252,1) 94%);
+    color: white;
+    text-align: center;
+    
+}
+
+
+/*  passage de sourie coloré */
+
+@media (hover: hover) {
+    h1:hover {
+        background: #014507;
+    }
+}
+
+
+
+/* titre animation */
+h1, h2 {
+  animation-duration: 3s;
+  animation-name: glissement;
+  animation-iteration-count: initial;
+}
+.infini {
+  animation-iteration-count: initial;
+}
+.dix {
+  animation-iteration-count: 10;
+}
+@keyframes glissement {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+/* media Rule
+@media screen and (min-width: 1200px ) and (max-width: 1920px ){
+  .container {
+  
+    font-family: bold;
+  }
+}
+@media screen and  (max-width: 667px ) {
+    .container {
+         font-weight: bold;
+    }
+   
+}
+ 
+
+@media screen and (min-width: 767px ) and (max-width: 992px ){
+    .container{
+        font-size: 16px;
+   
+}
+}
+*/
+/* div 
+#relative {
+position: relative;
+left: 70px;
+top: 40px;
+width: 1200px;
+background-color: blue;
+height: 70px;
+}
+
+#absolute {
+position: absolute;
+background-color: red;
+top: 0;
+width: 50%;
+height: 1em;
+
+}
+#item1 {
+    height: 100px;
+    width: 100px;
+}
+*/
+ 
+
+nav a {
+  font-family: 'Bangers', cursive;
+  color: #ffffff;
+
+  border-radius: 10px;
+}
+
+
+ .vert{
+  color: #014507;
+ }
+
+ svg{
+  color: rgb(99, 99, 99);
+ }
+
+.inputText{
+  border-radius: 5px;
+  padding-left:  30%;
+  padding-right: 30%;
+} 
+.cont{
+ width: 40%;
+ margin: auto;
+ 
+} 
+.ch{
+  color: red;
+}
+
+/*--------------------------formulaire--------------------------------------*/
+
+.fa{
+  color: rgb(224, 218, 218);
+}

@@ -1,0 +1,164 @@
+/* FONTS */
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Days+One&display=swap');
+
+/* BASE STYLES */
+
+body {
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  background-color: black;
+}
+ul {
+  margin: 15px 0;
+}
+p {
+  margin: 5px 0;
+  color: white;
+  font-size: 20px;
+}
+
+a {
+}
+ a {
+    background-color: white;
+  }
+
+/*  passage de sourie coloré */
+
+@media (hover: hover) {
+    h2:hover {
+        background: #ffffff;
+    }
+    h3:hover {
+        background: #ffffff;
+        color: black
+        ;
+    }
+}
+/*  sous titre */
+h3, h2  {
+  font-family: 'Bangers', cursive;
+    background: rgb(255,232,94);
+    background: radial-gradient(circle, rgba(255,232,94,1) 0%, rgba(0,236,255,1) 50%, rgba(255,255,255,0.4878151944371498) 100%); 
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+
+
+/* titre animation */
+h1, h2 {
+  animation-duration: 3s;
+  animation-name: glissement;
+  animation-iteration-count: initial;
+}
+.infini {
+  animation-iteration-count: initial;
+}
+.dix {
+  animation-iteration-count: 10;
+}
+@keyframes glissement {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}  
+
+/* CV STYLES */
+
+.cv {
+  width: 900px;
+  margin: 0 auto;
+}
+.cv-col {
+  width: 30%;
+  padding: 30px 30px 30px 0;
+  float: left;
+  box-sizing: border-box;
+}
+.cv-col + .cv-col {
+  padding: 30px;
+  width: 60%;
+}
+.cv-col_inverse-color {
+  background-color: #00460a;
+}
+.cv-col:first-child {
+  padding-right: 30px;
+}
+.cv-person {
+  margin-bottom: 50px;
+}
+.cv-person_photo {
+  display: block;
+  width: 200px;
+  margin: 0 auto 30px;
+}
+.cv-person_name {
+  margin: 0;
+  color: #00460a;
+  font-size: 42px;
+  text-transform: uppercase;
+}
+.cv-person_position {
+  margin: 0;
+  text-transform: uppercase;
+}
+.cv-info:not(:last-child) {
+  margin-bottom: 30px;
+}
+.cv-info_contact {
+  text-transform: uppercase;
+}
+.cv-info_contact a {
+  color: #00460a;
+  font-weight: 600;
+  text-decoration: none;
+}
+.cv-info_contact a:hover {
+  text-decoration: underline;
+}
+.cv-info_title {
+  padding: 10px;
+  margin: 0 0 20px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  background-color: #00460a;
+}
+.cv-col_inverse-color .cv-info_title {
+  color: #000;
+  background-color: rgb(255, 255, 255);
+}
+.cv-info_details:not(:last-child) {
+  margin-bottom: 30px;
+}
+.cv-info_subtitle {
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+.cv-info_subtitle span {
+  display: block;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.cv-info_skills {
+  display: inline-block;
+  width: 40%;
+  list-style: square;
+  vertical-align: top;
+}
+
+
+svg{
+  color: rgb(99, 99, 99);
+ }

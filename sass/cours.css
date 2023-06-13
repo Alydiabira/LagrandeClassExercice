@@ -1,0 +1,51 @@
+body else {
+  color: #eee;
+  background-color: #333;
+}
+
+div else {
+  color: #eee;
+  background-color: #333;
+}
+
+.tr, td {
+  text-align: center;
+  text-decoration: underline;
+  color: #eee;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  border: 2px solid black;
+}
+
+#navbar {
+    background-color:#014507; 
+    text-align: right;
+  align-items: baseline;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+
+.navbar a:hover {
+  color: #7c3939;
+  transition: 0.5s;
+}
+
+.he:hover {
+  text-decoration: underline;
+  color: red;
+}/*# sourceMappingURL=cours.css.map */
